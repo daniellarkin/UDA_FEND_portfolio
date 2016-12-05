@@ -1,0 +1,26 @@
+{
+  "name": "UDA_FEND_portfolio",
+  "homepage": "https://github.com/daniellarkin/UDA_FEND_portfolio",
+  "authors": [
+    "Daniel Larkin <daniel.larkin@gmail.com>"
+  ],
+  "description": "Portfolio Project of Udacity FEND",
+  "main": "index.html",
+  "keywords": [
+    "project",
+    "RWD",
+    "FEND"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jQuery": "^3.1.1",
+    "bootstrap": "^3.3.7"
+  }
+}
