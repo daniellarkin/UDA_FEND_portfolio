@@ -1,3 +1,59 @@
-body {
+/*body {
     background-color: lightblue;
+}*/
+
+h1 {
+    font-size: 3em; /* 48 /16 */
+}
+
+h2 {
+    font-size: 1.25em; /* 20/16 */
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+    height:auto;
+}
+
+header {
+    max-width: 100%;
+    width: 100%;
+    padding: 0em 0em;
+    margin: 0em 0em;
+    background-color: #FFA623;
+    color: #0067B2;
+} 
+article {
+    max-width: 100%;
+    width: 100%;
+}
+section {
+    padding: 0% 1%;
+    max-width: 33%;
+    width: 33%;
+    float: left;
+}
+
+.hdrLogo {
+    width: 25%;
+    float: left;
+    bgcolor: #FF0000;
+}
+.hdrDetails {
+    width: 75%;
+    float: right;
+    padding: 0em 1em;
+    bgcolor: "#0000FF";
+    text-align: right;
+}
+.hdrImg {
+    /*clear: both;*/
+}
+
+hr {
+    height: 5px;
+    color: #7d97ad;
+    background: #7d97ad;
+    border: 0;
 }

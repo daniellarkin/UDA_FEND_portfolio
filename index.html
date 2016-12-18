@@ -1,94 +1,72 @@
 <!doctype html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>Portfolio Website</title>
-  <meta name="description" content="Portfolio Website">
-  <meta name="author" content="Daniel Larkin">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Portfolio Website">
+    <meta name="author" content="Daniel Larkin">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   
+    <title>FEND Portfolio Website Project</title>
 
-  <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery -->
+    <!--<script type="text/javascript" src="bower_components/jQuery/dist/jquery.js"></script>-->
 
-  <script type="text/javascript" src="bower_components/jQuery/dist/jquery.js"></script>
+    <!-- Bootstrap -->
+    <!--<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>-->
 
-  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- Site specific CSS -->
+    <link rel="stylesheet" href="src/css/styles.css">
 
-
-
-  <!-- Bootstrap theme -->
-  <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
-  <!-- My CSS theme -->
-  <link rel="stylesheet" href="css/styles.css">
-
-</head>
+  </head>
 
 <body>
-  <div id="divTest1"></div>
-
-
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
+  <header>
+    <div class="hdrLogo">
+       <!-- Need an icon on the left hand side -->
+    </div>   
+    <div class="hdrDetails">
+      <h1>John Doette</h1>
+      <h2>Doe Technology Enterprises</h2>
     </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-left">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>        
+    <div class="hdrImg">
+      <figure>
+          <img src="src/img/AdobeStock_78507548_1280w.jpeg" alt="Project 1" />
+      </figure>
+      <hr>
+    </div>
+  </header>  
 
 
-  <script type="text/javascript">
-    $("#divTest1").text("Hello, world!");
-  </script>
+  <article>
 
-  <!-- Custom Javascript -->
-  <!--<script src="js/scripts.js"></script>-->
+    <section>
+    <figure>
+      <img src="src/img/AdobeStock_89405211_1280w.jpeg" alt="Project 2" />
+    </figure>
+    <p>Project 2</p>
+    </section>
+
+    <section>
+    <figure>
+      <img src="src/img/AdobeStock_41472728_1280w.jpeg" alt="Project 3" />
+    </figure>
+    <p>Project 3</p>
+    </section>
+
+    <section>
+    <figure>
+      <img src="src/img/AdobeStock_51490712_1280w.jpeg" alt="Project 4" />
+    </figure>
+    <p>Project 3</p>
+    </section>
+
+  </article>
+
+  <footer>
+    this is the end | other link | link2 | link 3
+  </footer>
 </body>
 </html>
