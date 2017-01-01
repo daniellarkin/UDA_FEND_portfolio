@@ -55,7 +55,9 @@ gulp.task('server', function(){
     server = express();
     server.use(express.static('dist'));
     server.listen(8000);
-    browsersync({proxy: 'localhost:8000'});
+    browsersync({proxy: 'localhost:8000',
+		 open : false}
+	       );
 });
 
 
