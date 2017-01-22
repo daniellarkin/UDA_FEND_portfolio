@@ -1,0 +1,41 @@
+body {
+/*    background-color: lightblue;*/
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+    height:auto;
+}
+
+.hdrDetails {
+    font-family: 'Slabo 27px', serif;
+    text-align: right;
+    padding: 0em 1em;
+}
+
+.hdrDetails h1 {
+    font-size: 3.7em; /* 48 /16 */
+}
+
+.hdrDetails h2 {
+    font-size: 2.2em; /* 20/16 */
+}
+
+h1, h2, h3 {
+     font-family: 'Slabo 27px', serif;
+}
+
+.logo {
+    padding: 1em 0em;
+}
+
+hr {
+    height: 5px;
+    background: #7d97ad;
+    border: 0;
+}
+.projDetails {
+    text-align: justify;
+    text-justify: inter-word;
+}
